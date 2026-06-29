@@ -14,7 +14,7 @@ function Registro() {
         setRegistrado(true);
 
         setTimeout(() => {
-        navigate("/Login");
+        navigate("/Inicio");
     }, 2000);
 
     };

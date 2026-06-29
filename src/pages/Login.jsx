@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/login.css';
 
@@ -16,6 +16,10 @@ function Login() {
     if (correo.trim() !== "" && contrasena.trim() !== "") {
 
         setMensaje("Inicio de sesión exitoso.");
+
+        setTimeout(() => {
+            navigate("/Inicio");
+        }, 1000); // Espera 1 segundo para que se vea el mensaje
 
     } else {
 
@@ -82,10 +86,10 @@ function Login() {
                 </div>
             )}
 
-            <p className="text-center mt-4">
-                <a href="#" className="link-recuperar">
+           <p className="text-center mt-4">
+                <Link to="/Enviar_pin" className="link-recuperar">
                     ¿Olvidaste tu contraseña?
-                </a>
+                </Link>
             </p>
 
         </div>
