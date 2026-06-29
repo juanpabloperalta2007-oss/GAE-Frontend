@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
@@ -34,6 +35,12 @@ function Sidebar() {
         <a href="#" className="list-group-item list-group-item-action rounded mb-1 text-secondary d-flex align-items-center">
           <i className="bi bi-check2-square me-2"></i> <span>Registrar asistencia</span>
         </a>
+        {/*esto solo lo podra observar el administrador (vista solo admin*/}
+
+        <Link to="/Vista_admin" className="list-group-item list-group-item-action rounded mb-1 text-secondary d-flex align-items-center">
+          <i className="bi bi-check2-square me-2"></i>
+          <span>Ver Usuario</span>
+          </Link>
       </div>
     </div>
   );
