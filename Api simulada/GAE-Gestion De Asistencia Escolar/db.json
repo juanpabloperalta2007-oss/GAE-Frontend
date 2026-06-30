@@ -1,0 +1,842 @@
+{
+  "rol": [
+    {
+      "id": 1,
+      "nombre": "coordinador"
+    },
+    {
+      "id": 2,
+      "nombre": "profesor"
+    },
+    {
+      "id": 3,
+      "nombre": "acudiente"
+    }
+  ],
+  "usuario": [
+    {
+      "id": 1,
+      "login": "paolarojas@GAE.com",
+      "password_hash": "admin123",
+      "activa": 1,
+      "email": "paolarojas@gmail.com",
+      "token_activacion": "abc1",
+      "token_recuperacion_contrasena": "3y33yg",
+      "fecha_token_recuperacion": "2026-01-01"
+    },
+    {
+      "id": 2,
+      "login": "dorisvillalba@GAE.com",
+      "password_hash": "dkfffff",
+      "activa": 1,
+      "email": "dorisvillalba@gmail.com",
+      "token_activacion": "abc12",
+      "token_recuperacion_contrasena": "3y33yg",
+      "fecha_token_recuperacion": "2026-01-01"
+    },
+    {
+      "id": 3,
+      "login": "laurarestrepo@GAE.com",
+      "password_hash": "dkjdjoooo",
+      "activa": 1,
+      "email": "laurarestrepo@gmail.com",
+      "token_activacion": "abc123",
+      "token_recuperacion_contrasena": "3y33yg",
+      "fecha_token_recuperacion": "2026-01-01"
+    },
+    {
+      "id": 4,
+      "login": "marcelacontreras@GAE.com",
+      "password_hash": "deutet",
+      "activa": 1,
+      "email": "marcelacontreras@gmail.com",
+      "token_activacion": "abc1234",
+      "token_recuperacion_contrasena": "3y33yg",
+      "fecha_token_recuperacion": "2026-01-01"
+    },
+    {
+      "id": 5,
+      "login": "juliethpinzon@GAE.com",
+      "password_hash": "dbddhd",
+      "activa": 1,
+      "email": "juliethpinzon@gmail.com",
+      "token_activacion": "abc12345",
+      "token_recuperacion_contrasena": "3y33yg",
+      "fecha_token_recuperacion": "2026-01-01"
+    },
+    {
+      "id": 6,
+      "login": "esperanzaramirez@GAE.com",
+      "password_hash": "dkjdjdh",
+      "activa": 1,
+      "email": "esperanzaramirez@gmail.com",
+      "token_activacion": "abc123456",
+      "token_recuperacion_contrasena": "3y33yg",
+      "fecha_token_recuperacion": "2026-01-01"
+    },
+    {
+      "id": 7,
+      "login": "diegoleal@GAE.com",
+      "password_hash": "dkjdjdh",
+      "activa": 1,
+      "email": "diegoleal@gmail.com",
+      "token_activacion": "abc1234567",
+      "token_recuperacion_contrasena": "3y33yg",
+      "fecha_token_recuperacion": "2026-01-01"
+    },
+    {
+      "id": 8,
+      "login": "felipegomez@GAE.com",
+      "password_hash": "dkjdjdh",
+      "activa": 1,
+      "email": "felipegomez@gmail.com",
+      "token_activacion": "abc1",
+      "token_recuperacion_contrasena": "3y33yg",
+      "fecha_token_recuperacion": "2026-01-01"
+    },
+    {
+      "id": 9,
+      "login": "felipemartinez@GAE.com",
+      "password_hash": "abc12345",
+      "activa": 1,
+      "email": "felipemartinez@gmail.com",
+      "token_activacion": "tok107",
+      "token_recuperacion_contrasena": "rec907",
+      "fecha_token_recuperacion": "2026-01-08"
+    },
+    {
+      "id": 10,
+      "login": "sophialopez@GAE.com",
+      "password_hash": "xyz987",
+      "activa": 1,
+      "email": "sophialopez@gmail.com",
+      "token_activacion": "tok108",
+      "token_recuperacion_contrasena": "rec908",
+      "fecha_token_recuperacion": "2026-01-09"
+    },
+    {
+      "id": 11,
+      "login": "camiladiaz@GAE.com",
+      "password_hash": "miclave11",
+      "activa": 1,
+      "email": "camiladiaz@gmail.com",
+      "token_activacion": "tok109",
+      "token_recuperacion_contrasena": "rec909",
+      "fecha_token_recuperacion": "2026-01-10"
+    },
+    {
+      "id": 12,
+      "login": "nicolasvargas@GAE.com",
+      "password_hash": "test2026",
+      "activa": 1,
+      "email": "nicolasvargas@gmail.com",
+      "token_activacion": "tok110",
+      "token_recuperacion_contrasena": "rec910",
+      "fecha_token_recuperacion": "2026-01-11"
+    },
+    {
+      "id": 1,
+      "email": "admin@mail.com",
+      "password": "1234",
+      "rolId": 1
+    }
+  ],
+  "rol_usuario": [
+    {
+      "id": 1,
+      "id_rol": 1,
+      "id_usuario": 1
+    },
+    {
+      "id": 2,
+      "id_rol": 1,
+      "id_usuario": 2
+    },
+    {
+      "id": 3,
+      "id_rol": 2,
+      "id_usuario": 3
+    },
+    {
+      "id": 4,
+      "id_rol": 2,
+      "id_usuario": 4
+    },
+    {
+      "id": 5,
+      "id_rol": 2,
+      "id_usuario": 5
+    },
+    {
+      "id": 6,
+      "id_rol": 3,
+      "id_usuario": 6
+    },
+    {
+      "id": 7,
+      "id_rol": 3,
+      "id_usuario": 7
+    },
+    {
+      "id": 8,
+      "id_rol": 3,
+      "id_usuario": 8
+    }
+  ],
+  "cliente": [
+    {
+      "id": 1,
+      "tipo_documento": "CC",
+      "numero_documento": 4878738,
+      "primer_nombre": "paola",
+      "segundo_nombre": "andrea",
+      "primer_apellido": "rojas",
+      "segundo_apellido": "amarillas",
+      "id_usuario": 1
+    },
+    {
+      "id": 2,
+      "tipo_documento": "CC",
+      "numero_documento": 74646646,
+      "primer_nombre": "doris",
+      "segundo_nombre": "yael",
+      "primer_apellido": "villalba",
+      "segundo_apellido": "torres",
+      "id_usuario": 2
+    },
+    {
+      "id": 3,
+      "tipo_documento": "CC",
+      "numero_documento": 1346655,
+      "primer_nombre": "laura",
+      "segundo_nombre": "",
+      "primer_apellido": "restrepo",
+      "segundo_apellido": "gomez",
+      "id_usuario": 3
+    },
+    {
+      "id": 4,
+      "tipo_documento": "CC",
+      "numero_documento": 546464,
+      "primer_nombre": "marcela",
+      "segundo_nombre": "esperanza",
+      "primer_apellido": "contreras",
+      "segundo_apellido": "carvajal",
+      "id_usuario": 4
+    },
+    {
+      "id": 5,
+      "tipo_documento": "CC",
+      "numero_documento": 178716,
+      "primer_nombre": "fanny",
+      "segundo_nombre": "julieth",
+      "primer_apellido": "pinzon",
+      "segundo_apellido": "romero",
+      "id_usuario": 5
+    },
+    {
+      "id": 6,
+      "tipo_documento": "CC",
+      "numero_documento": 898499,
+      "primer_nombre": "gloria",
+      "segundo_nombre": "esperanza",
+      "primer_apellido": "ramirez",
+      "segundo_apellido": "martinez",
+      "id_usuario": 6
+    },
+    {
+      "id": 7,
+      "tipo_documento": "CC",
+      "numero_documento": 23673663,
+      "primer_nombre": "diego",
+      "segundo_nombre": "fernando",
+      "primer_apellido": "leal",
+      "segundo_apellido": "ramirez",
+      "id_usuario": 7
+    },
+    {
+      "id": 8,
+      "tipo_documento": "CC",
+      "numero_documento": 437732732,
+      "primer_nombre": "andres",
+      "segundo_nombre": "felipe",
+      "primer_apellido": "gomez",
+      "segundo_apellido": "casas",
+      "id_usuario": 8
+    },
+    {
+      "id": 9,
+      "tipo_documento": "CC",
+      "numero_documento": 4377324,
+      "primer_nombre": "fredy",
+      "segundo_nombre": "felipe",
+      "primer_apellido": "martinez",
+      "segundo_apellido": "loaiza",
+      "id_usuario": 9
+    },
+    {
+      "id": 10,
+      "tipo_documento": "CC",
+      "numero_documento": 5356363,
+      "primer_nombre": "laura",
+      "segundo_nombre": "sophia",
+      "primer_apellido": "gomez",
+      "segundo_apellido": "lopez",
+      "id_usuario": 10
+    },
+    {
+      "id": 11,
+      "tipo_documento": "CC",
+      "numero_documento": 5858858,
+      "primer_nombre": "valery",
+      "segundo_nombre": "camila",
+      "primer_apellido": "patiño",
+      "segundo_apellido": "flores",
+      "id_usuario": 11
+    },
+    {
+      "id": 12,
+      "tipo_documento": "CC",
+      "numero_documento": 42248474,
+      "primer_nombre": "diego",
+      "segundo_nombre": "nicolas",
+      "primer_apellido": "vega",
+      "segundo_apellido": "vargas",
+      "id_usuario": 12
+    }
+  ],
+  "coordinador": [
+    {
+      "id": 1,
+      "estado": "activo",
+      "area": "academico",
+      "id_cliente": 1
+    },
+    {
+      "id": 2,
+      "estado": "activo",
+      "area": "convivencia",
+      "id_cliente": 2
+    }
+  ],
+  "profesor": [
+    {
+      "id": 1,
+      "estado": "activo",
+      "id_cliente": 3
+    },
+    {
+      "id": 2,
+      "estado": "activo",
+      "id_cliente": 4
+    },
+    {
+      "id": 3,
+      "estado": "activo",
+      "id_cliente": 5
+    }
+  ],
+  "curso": [
+    {
+      "id": 1,
+      "nombre_curso": "6A",
+      "estado": "activo"
+    },
+    {
+      "id": 2,
+      "nombre_curso": "7A",
+      "estado": "activo"
+    },
+    {
+      "id": 3,
+      "nombre_curso": "8A",
+      "estado": "activo"
+    },
+    {
+      "id": 4,
+      "nombre_curso": "9A",
+      "estado": "activo"
+    },
+    {
+      "id": 5,
+      "nombre_curso": "10A",
+      "estado": "activo"
+    },
+    {
+      "id": 6,
+      "nombre_curso": "11A",
+      "estado": "activo"
+    }
+  ],
+  "coordinador_curso": [
+    {
+      "id": 1,
+      "id_coordinador": 1,
+      "id_curso": 1
+    },
+    {
+      "id": 2,
+      "id_coordinador": 1,
+      "id_curso": 3
+    },
+    {
+      "id": 3,
+      "id_coordinador": 1,
+      "id_curso": 2
+    }
+  ],
+  "acudiente": [
+    {
+      "id": 1,
+      "direccion": "d 73 # 78 i 50",
+      "id_cliente": 6,
+      "estado": "activo",
+      "telefono": 3213124525
+    },
+    {
+      "id": 2,
+      "direccion": "kra 75 # 78a",
+      "id_cliente": 7,
+      "estado": "activo",
+      "telefono": 3102070720
+    },
+    {
+      "id": 3,
+      "direccion": "cl 78-73 sur",
+      "id_cliente": 8,
+      "estado": "activo",
+      "telefono": 3001297741
+    },
+    {
+      "id": 4,
+      "direccion": "cra 10 # 25-30",
+      "id_cliente": 9,
+      "estado": "activo",
+      "telefono": 3204567890
+    },
+    {
+      "id": 5,
+      "direccion": "cll 45 # 18-22",
+      "id_cliente": 10,
+      "estado": "activo",
+      "telefono": 3119876543
+    },
+    {
+      "id": 6,
+      "direccion": "av 68 # 72-15",
+      "id_cliente": 11,
+      "estado": "inactivo",
+      "telefono": 3152233445
+    },
+    {
+      "id": 7,
+      "direccion": "transv 90 # 12-40",
+      "id_cliente": 12,
+      "estado": "activo",
+      "telefono": 3005566778
+    }
+  ],
+  "estudiante": [
+    {
+      "id": 1,
+      "primer_nombre": "Juan",
+      "segundo_nombre": "David",
+      "primer_apellido": "Gomez",
+      "segundo_apellido": "Perez",
+      "codigo_lista": 1,
+      "id_acudiente": 1,
+      "estado": "Activo"
+    },
+    {
+      "id": 2,
+      "primer_nombre": "Maria",
+      "segundo_nombre": "Alejandra",
+      "primer_apellido": "Lopez",
+      "segundo_apellido": "Ramirez",
+      "codigo_lista": 10,
+      "id_acudiente": 2,
+      "estado": "Activo"
+    },
+    {
+      "id": 3,
+      "primer_nombre": "Carlos",
+      "segundo_nombre": "Andres",
+      "primer_apellido": "Martinez",
+      "segundo_apellido": "Diaz",
+      "codigo_lista": 15,
+      "id_acudiente": 3,
+      "estado": "Activo"
+    },
+    {
+      "id": 4,
+      "primer_nombre": "Laura",
+      "segundo_nombre": "Sofia",
+      "primer_apellido": "Ramirez",
+      "segundo_apellido": "Torres",
+      "codigo_lista": 2,
+      "id_acudiente": 4,
+      "estado": "Activo"
+    },
+    {
+      "id": 5,
+      "primer_nombre": "Andres",
+      "segundo_nombre": "Felipe",
+      "primer_apellido": "Castro",
+      "segundo_apellido": "Lopez",
+      "codigo_lista": 3,
+      "id_acudiente": 5,
+      "estado": "Activo"
+    },
+    {
+      "id": 6,
+      "primer_nombre": "Camila",
+      "segundo_nombre": "Andrea",
+      "primer_apellido": "Diaz",
+      "segundo_apellido": "Martinez",
+      "codigo_lista": 4,
+      "id_acudiente": 6,
+      "estado": "Activo"
+    },
+    {
+      "id": 7,
+      "primer_nombre": "Nicolas",
+      "segundo_nombre": "Jose",
+      "primer_apellido": "Vargas",
+      "segundo_apellido": "Perez",
+      "codigo_lista": 5,
+      "id_acudiente": 7,
+      "estado": "Activo"
+    }
+  ],
+  "materia": [
+    {
+      "id": 1,
+      "nombre_materia": "ingles",
+      "estado": "activo"
+    },
+    {
+      "id": 2,
+      "nombre_materia": "matematicas",
+      "estado": "activo"
+    },
+    {
+      "id": 3,
+      "nombre_materia": "quimica",
+      "estado": "activo"
+    },
+    {
+      "id": 4,
+      "nombre_materia": "fisica",
+      "estado": "activo"
+    },
+    {
+      "id": 5,
+      "nombre_materia": "biologia",
+      "estado": "activo"
+    },
+    {
+      "id": 6,
+      "nombre_materia": "historia",
+      "estado": "activo"
+    },
+    {
+      "id": 7,
+      "nombre_materia": "geografia",
+      "estado": "activo"
+    },
+    {
+      "id": 8,
+      "nombre_materia": "educacion fisica",
+      "estado": "activo"
+    }
+  ],
+  "periodo": [
+    {
+      "id": 1,
+      "fecha_inicio": "2026-02-01",
+      "fecha_fin": "2026-04-15",
+      "nombre": "primer periodo"
+    },
+    {
+      "id": 2,
+      "fecha_inicio": "2026-04-16",
+      "fecha_fin": "2026-06-15",
+      "nombre": "segundo periodo"
+    },
+    {
+      "id": 3,
+      "fecha_inicio": "2026-07-03",
+      "fecha_fin": "2026-09-15",
+      "nombre": "tercer periodo"
+    },
+    {
+      "id": 4,
+      "fecha_inicio": "2026-09-16",
+      "fecha_fin": "2026-11-15",
+      "nombre": "cuarto periodo"
+    }
+  ],
+  "calendario": [
+    {
+      "id": 1,
+      "fecha": "2026-01-26",
+      "nombre": "inicio clases",
+      "id_curso": 1
+    },
+    {
+      "id": 2,
+      "fecha": "2026-02-02",
+      "nombre": "primer taller",
+      "id_curso": 1
+    },
+    {
+      "id": 3,
+      "fecha": "2026-02-09",
+      "nombre": "evaluacion parcial 1",
+      "id_curso": 1
+    }
+  ],
+  "profesor_materia": [
+    {
+      "id": 1,
+      "id_profesor": 1,
+      "id_materia": 1
+    },
+    {
+      "id": 2,
+      "id_profesor": 2,
+      "id_materia": 2
+    },
+    {
+      "id": 3,
+      "id_profesor": 3,
+      "id_materia": 3
+    },
+    {
+      "id": 4,
+      "id_profesor": 1,
+      "id_materia": 4
+    },
+    {
+      "id": 5,
+      "id_profesor": 2,
+      "id_materia": 5
+    },
+    {
+      "id": 6,
+      "id_profesor": 3,
+      "id_materia": 6
+    },
+    {
+      "id": 7,
+      "id_profesor": 1,
+      "id_materia": 7
+    },
+    {
+      "id": 8,
+      "id_profesor": 2,
+      "id_materia": 8
+    }
+  ],
+  "curso_periodo": [
+    {
+      "id": 1,
+      "id_curso": 1,
+      "id_periodo": 1
+    },
+    {
+      "id": 2,
+      "id_curso": 1,
+      "id_periodo": 2
+    },
+    {
+      "id": 3,
+      "id_curso": 1,
+      "id_periodo": 3
+    },
+    {
+      "id": 4,
+      "id_curso": 1,
+      "id_periodo": 4
+    }
+  ],
+  "profesor_curso_periodo": [
+    {
+      "id": 1,
+      "id_profesor": 1,
+      "id_curso": 1,
+      "id_periodo": 1,
+      "id_curso_periodo": 1
+    },
+    {
+      "id": 2,
+      "id_profesor": 1,
+      "id_curso": 1,
+      "id_periodo": 2,
+      "id_curso_periodo": 2
+    },
+    {
+      "id": 3,
+      "id_profesor": 1,
+      "id_curso": 1,
+      "id_periodo": 3,
+      "id_curso_periodo": 3
+    },
+    {
+      "id": 4,
+      "id_profesor": 1,
+      "id_curso": 1,
+      "id_periodo": 4,
+      "id_curso_periodo": 4
+    }
+  ],
+  "horario": [
+    {
+      "id": 1,
+      "id_curso": 1,
+      "anio": 2026,
+      "dia_semana": "lunes",
+      "hora_inicio": "07:00:00",
+      "hora_fin": "09:00:00",
+      "id_materia": 1
+    },
+    {
+      "id": 2,
+      "id_curso": 1,
+      "anio": 2026,
+      "dia_semana": "lunes",
+      "hora_inicio": "09:00:00",
+      "hora_fin": "10:00:00",
+      "id_materia": 2
+    },
+    {
+      "id": 3,
+      "id_curso": 1,
+      "anio": 2026,
+      "dia_semana": "lunes",
+      "hora_inicio": "11:00:00",
+      "hora_fin": "13:00:00",
+      "id_materia": 3
+    }
+  ],
+  "calificacion": [
+    {
+      "id": 1,
+      "nota": 100,
+      "id_materia": 1,
+      "id_estudiante": 1,
+      "id_periodo": 1
+    },
+    {
+      "id": 2,
+      "nota": 100,
+      "id_materia": 2,
+      "id_estudiante": 1,
+      "id_periodo": 1
+    },
+    {
+      "id": 3,
+      "nota": 90,
+      "id_materia": 1,
+      "id_estudiante": 2,
+      "id_periodo": 1
+    },
+    {
+      "id": 4,
+      "nota": 90,
+      "id_materia": 2,
+      "id_estudiante": 2,
+      "id_periodo": 1
+    },
+    {
+      "id": 5,
+      "nota": 95,
+      "id_materia": 1,
+      "id_estudiante": 3,
+      "id_periodo": 1
+    },
+    {
+      "id": 6,
+      "nota": 95,
+      "id_materia": 2,
+      "id_estudiante": 3,
+      "id_periodo": 1
+    }
+  ],
+  "asistencia": [
+    {
+      "id": 1,
+      "id_estudiante": 1,
+      "id_horario": 1,
+      "fecha": "2026-05-19",
+      "estado": "inasistencia"
+    },
+    {
+      "id": 2,
+      "id_estudiante": 2,
+      "id_horario": 4,
+      "fecha": "2026-05-20",
+      "estado": "asistencia"
+    },
+    {
+      "id": 3,
+      "id_estudiante": 3,
+      "id_horario": 7,
+      "fecha": "2026-05-21",
+      "estado": "retardo"
+    }
+  ],
+  "correo": [
+    {
+      "id": 1,
+      "asunto": "aviso de inasistencia",
+      "mensaje": "el estudiante santiago presenta varias faltas a la clase de matematicas",
+      "fecha_envio": "2026-04-19",
+      "id_cliente": 3
+    }
+  ],
+  "estudiante_curso": [
+    {
+      "id": 1,
+      "id_estudiante": 1,
+      "id_curso": 1,
+      "anio": 2026
+    },
+    {
+      "id": 2,
+      "id_estudiante": 2,
+      "id_curso": 2,
+      "anio": 2026
+    },
+    {
+      "id": 3,
+      "id_estudiante": 3,
+      "id_curso": 3,
+      "anio": 2026
+    },
+    {
+      "id": 4,
+      "id_estudiante": 4,
+      "id_curso": 4,
+      "anio": 2026
+    },
+    {
+      "id": 5,
+      "id_estudiante": 5,
+      "id_curso": 5,
+      "anio": 2026
+    },
+    {
+      "id": 6,
+      "id_estudiante": 6,
+      "id_curso": 6,
+      "anio": 2026
+    },
+    {
+      "id": 7,
+      "id_estudiante": 7,
+      "id_curso": 1,
+      "anio": 2026
+    }
+  ]
+}
